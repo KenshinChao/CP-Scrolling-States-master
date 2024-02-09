@@ -72,7 +72,7 @@ class Load extends Phaser.Scene {
             frameRate: 24,
             repeat: 0,
             frames: this.anims.generateFrameNames('hero', {
-                frames: [16,16,16,17,18,24,25,26,21,22,30,29,28,18,19,19,19]
+                frames: [16, 16, 16, 17, 18, 24, 25, 26, 21, 22, 30, 29, 28, 18, 19, 19 ,19]
             })
         })
 

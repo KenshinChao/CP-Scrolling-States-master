@@ -204,9 +204,10 @@ class CircularState extends State {
         //hero.setTint(0x0000FF) // only works when using phaser.webgl on type in config main.js
         hero.setVelocity(0)
         hero.anims.play('circular-attack').once('animationcomplete',() => {
+            scene.cameras.main.shake(250, 0.004)
             this.stateMachine.transition('idle')
         })
-        scene.cameras.main.shake(250, 0.004)
+        
     }
 
 }
